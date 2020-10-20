@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cargamentos>
+  <cargamento id="carga1" numContenedores="2">
+    <camion id="granCamion" peso="2000">
+      <contenedores>
+        <contenedor1 id="cont1" peso="800" />
+        <contenedor2 id="cont2" peso="800" />
+      </contenedores>
+    </camion>
+  </cargamento>
+</cargamentos>

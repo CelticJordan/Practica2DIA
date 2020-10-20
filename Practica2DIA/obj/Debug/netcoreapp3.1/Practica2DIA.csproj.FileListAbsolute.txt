@@ -1,0 +1,13 @@
+/home/jordan/RiderProjects/Practica2DIA/Practica2DIA/obj/Debug/netcoreapp3.1/Practica2DIA.csprojAssemblyReference.cache
+/home/jordan/RiderProjects/Practica2DIA/Practica2DIA/obj/Debug/netcoreapp3.1/Practica2DIA.AssemblyInfoInputs.cache
+/home/jordan/RiderProjects/Practica2DIA/Practica2DIA/obj/Debug/netcoreapp3.1/Practica2DIA.AssemblyInfo.cs
+/home/jordan/RiderProjects/Practica2DIA/Practica2DIA/obj/Debug/netcoreapp3.1/Practica2DIA.csproj.CoreCompileInputs.cache
+/home/jordan/RiderProjects/Practica2DIA/Practica2DIA/bin/Debug/netcoreapp3.1/Practica2DIA
+/home/jordan/RiderProjects/Practica2DIA/Practica2DIA/bin/Debug/netcoreapp3.1/Practica2DIA.deps.json
+/home/jordan/RiderProjects/Practica2DIA/Practica2DIA/bin/Debug/netcoreapp3.1/Practica2DIA.runtimeconfig.json
+/home/jordan/RiderProjects/Practica2DIA/Practica2DIA/bin/Debug/netcoreapp3.1/Practica2DIA.runtimeconfig.dev.json
+/home/jordan/RiderProjects/Practica2DIA/Practica2DIA/bin/Debug/netcoreapp3.1/Practica2DIA.dll
+/home/jordan/RiderProjects/Practica2DIA/Practica2DIA/bin/Debug/netcoreapp3.1/Practica2DIA.pdb
+/home/jordan/RiderProjects/Practica2DIA/Practica2DIA/obj/Debug/netcoreapp3.1/Practica2DIA.dll
+/home/jordan/RiderProjects/Practica2DIA/Practica2DIA/obj/Debug/netcoreapp3.1/Practica2DIA.pdb
+/home/jordan/RiderProjects/Practica2DIA/Practica2DIA/obj/Debug/netcoreapp3.1/Practica2DIA.genruntimeconfig.cache
