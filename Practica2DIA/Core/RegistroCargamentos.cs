@@ -204,26 +204,26 @@ namespace Practica2DIA.Core {
                     foreach (var cargamentoXml in cargamentos)
                     {
 
-                        if (cargamentoXml.Attribute(EtqNumCont).Equals("1"))
+                        if ((int) cargamentoXml.Attribute(EtqNumCont) == 1)
                         {
                             toret.Add(new Cargamento(
-                                (string) cargamentoXml.Attribute(EtqId).Value,
-                                (Camion.TipoCamion) conversionKgCam(cargamentoXml.Element(EtqCam).Attribute(EtqPeso).Value),
-                                (string) cargamentoXml.Element(EtqCam).Attribute(EtqId).Value,
-                                (Contenedor.TipoCont) conversionKgCont(cargamentoXml.Element(EtqConts).Element(EtqCont1).Attribute(EtqPeso).Value),
-                                (string) cargamentoXml.Element(EtqCont1).Attribute(EtqId).Value));
+                            (string) cargamentoXml.Attribute(EtqId).Value,
+                            (Camion.TipoCamion) conversionKgCam(cargamentoXml.Element(EtqCam).Attribute(EtqPeso).Value),
+                            (string) cargamentoXml.Element(EtqCam).Attribute(EtqId).Value,
+                            (Contenedor.TipoCont) conversionKgCont(cargamentoXml.Element(EtqCam).Element(EtqConts).Element(EtqCont1).Attribute(EtqPeso).Value),
+                            (string) cargamentoXml.Element(EtqCam).Element(EtqConts).Element(EtqCont1).Attribute(EtqId).Value));
                         }
 
-                        else if (cargamentoXml.Attribute(EtqNumCont).Equals("2"))
+                        else if ((int) cargamentoXml.Attribute(EtqNumCont) == 2)
                         {
                             toret.Add(new Cargamento(
                                 (string) cargamentoXml.Attribute(EtqId).Value,
                                 (Camion.TipoCamion) conversionKgCam(cargamentoXml.Element(EtqCam).Attribute(EtqPeso).Value),
                                 (string) cargamentoXml.Element(EtqCam).Attribute(EtqId).Value,
-                                (Contenedor.TipoCont) conversionKgCont(cargamentoXml.Element(EtqConts).Element(EtqCont1).Attribute(EtqPeso).Value),
-                                (string) cargamentoXml.Element(EtqCont1).Attribute(EtqId).Value,
-                                (Contenedor.TipoCont) conversionKgCont(cargamentoXml.Element(EtqConts).Element(EtqCont2).Attribute(EtqPeso).Value),
-                                (string) cargamentoXml.Element(EtqCont2).Attribute(EtqId).Value));
+                                (Contenedor.TipoCont) conversionKgCont(cargamentoXml.Element(EtqCam).Element(EtqConts).Element(EtqCont1).Attribute(EtqPeso).Value),
+                                (string) cargamentoXml.Element(EtqCam).Element(EtqConts).Element(EtqCont1).Attribute(EtqId).Value,
+                                (Contenedor.TipoCont) conversionKgCont(cargamentoXml.Element(EtqCam).Element(EtqConts).Element(EtqCont2).Attribute(EtqPeso).Value),
+                                (string) cargamentoXml.Element(EtqCam).Element(EtqConts).Element(EtqCont2).Attribute(EtqId).Value));
                         }
                     }
                 }
